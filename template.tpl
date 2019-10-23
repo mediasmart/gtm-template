@@ -22,9 +22,7 @@ ___INFO___
   },
   "description": "Track conversions with mediasmart",
   "categories": ["CONVERSIONS", "ADVERTISING", "ATTRIBUTION"],
-  "containerContexts": [
-    "WEB"
-  ]
+  "containerContexts": []
 }
 
 
@@ -36,6 +34,7 @@ ___TEMPLATE_PARAMETERS___
     "name": "seatId",
     "displayName": "Seat ID",
     "simpleValueType": true,
+    "alwaysInSummary": true,
     "help": "Find your  Seat ID inside console.mediasmart.io under the organizations section , in the \"General\" tab of your organization",
     "valueValidators": [
       {
@@ -52,6 +51,7 @@ ___TEMPLATE_PARAMETERS___
     "name": "eventNumber",
     "displayName": "event Number",
     "simpleValueType": true,
+    "alwaysInSummary": true,
     "defaultValue": 1,
     "help": "Conversion number from 1 to 5",
     "valueValidators": [
@@ -172,7 +172,7 @@ const getUrl = require('getUrl');
 const getReferrerUrl = require('getReferrerUrl');
 // variable capture
 let seatId = data.seatId;
-let eventNumber = data.eventNumer;
+let eventNumber = data.eventNumber;
 // casting to string
 seatId = '' + seatId;
 eventNumber = '' + eventNumber;
