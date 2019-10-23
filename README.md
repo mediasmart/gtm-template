@@ -1,4 +1,4 @@
 # mediasmart official template
 
-Mediasmart template for mobile sites
+Mediasmart template for conversion tracking
 See https://console.mediasmart.io/docs/introduction for more information
