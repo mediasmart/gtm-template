@@ -30,6 +30,11 @@ ___TEMPLATE_PARAMETERS___
 
 [
   {
+    "type": "LABEL",
+    "name": "reminder",
+    "displayName": "Remember to employ our %gtm% macro in your campaign click url"
+  },
+  {
     "type": "TEXT",
     "name": "organizationId",
     "displayName": "Organization ID",
