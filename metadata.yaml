@@ -15,5 +15,5 @@
 homepage: "https://www.mediasmart.io"
 documentation: "https://console.mediasmart.io/docs/introduction"
 versions:
-  - sha: 24e782fb7a4a89a98be3d102874c411117991495
+  - sha: cd3dcc6b358b0ddb0a799d4e11862417ec78e5a2
     changeNotes: Initial Release
