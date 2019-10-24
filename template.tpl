@@ -27,9 +27,7 @@ ___INFO___
     "ANALYTICS"
   ],
   "containerContexts": [
-    "WEB",
-    "ANDROID",
-    "IOS"
+    "WEB"
   ]
 }
 
