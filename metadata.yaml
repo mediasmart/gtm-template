@@ -17,3 +17,5 @@ documentation: "https://console.mediasmart.io/docs/introduction"
 versions:
   - sha: f4211744c72d06f4a38e21121e9956fba49361ac
     changeNotes: Minor wording
+  - sha: cd3dcc6b358b0ddb0a799d4e11862417ec78e5a2
+    changeNotes: Initial Release
