@@ -1,4 +1,4 @@
-# Copyright 2019 Mediasmart
+# Copyright 2024 Mediasmart
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,6 +15,8 @@
 homepage: "https://www.mediasmart.io"
 documentation: "https://console.mediasmart.io/docs/introduction"
 versions:
+  - sha: ec885a5ee8c91ad5360c4a9edeb5386aa31c3a08
+    changeNotes: Allow to enter either an advertiser id or an organization id
   - sha: f4211744c72d06f4a38e21121e9956fba49361ac
     changeNotes: Minor wording
   - sha: cd3dcc6b358b0ddb0a799d4e11862417ec78e5a2
