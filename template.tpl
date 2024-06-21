@@ -43,19 +43,19 @@ ___TEMPLATE_PARAMETERS___
   {
     "type": "TEXT",
     "name": "organizationId",
-    "displayName": "Organization ID",
+    "displayName": "Advertiser ID or Organization ID",
     "simpleValueType": true,
     "alwaysInSummary": true,
-    "help": "Find your Organization ID inside console.mediasmart.io under the organizations section , in the \"General\" tab of your organization",
+    "help": "Enter your Advertiser Id or Event ID from your campaign configuration for advertiser level tracking. Legacy organization level tracking integrations can use Organization ID instead. Find your Organization ID inside console.mediasmart.io under the organizations section , in the \"General\" tab of your organization",
     "valueValidators": [
       {
         "type": "NON_EMPTY"
       },
       {
         "type": "REGEX",
-        "errorMessage": "The value is not a mediasmart Organization ID. \nFind your Organization ID in mediasmart console under your organization section",
+        "errorMessage": "The value is not a mediasmart Advertiser or Organization ID. \nFind your Organization ID in mediasmart console under your organization section",
         "args": [
-          "[a-z0-9]+"
+          "[a-zA-Z0-9-_]+"
         ]
       }
     ],
@@ -239,9 +239,14 @@ if (!eventId)
 	eventId = msParamReader(getReferrerUrl(), 'eventid' ,'msev');
 }
 
-let url = 'https://3ma79ae7cua.com/m/open?orgid=' + encodeUriComponent(orgId) + '&ms_event_num=' + encodeUriComponent(eventNumber);
-if (eventId) {
-	url = url + '&id=' + encodeUriComponent(eventId);
+let url = '';
+if (orgId.indexOf('-')!=-1) {
+	url = 'https://3ma79ae7cua.com/m/open?id=' + encodeUriComponent(orgId) + '&ms_event_num=' + encodeUriComponent(eventNumber);
+} else {
+	url = 'https://3ma79ae7cua.com/m/open?orgid=' + encodeUriComponent(orgId) + '&ms_event_num=' + encodeUriComponent(eventNumber);
+	if (eventId) {
+		url = url + '&id=' + encodeUriComponent(eventId);
+ }
 }
 if (udid) {
 	url = url + '&udid=' + encodeUriComponent(udid);
