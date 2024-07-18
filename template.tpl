@@ -254,7 +254,7 @@ if (udid) {
 if (msxt) {
 	url = url + '&msxt=' + encodeUriComponent(msxt);
 }
-sendPixel(url, data.gtmOnSuccess, data.gtmOnFailure);
+sendPixel(url, data.gtmOnSuccess, data.gtmOnSuccess);
 
 
 ___NOTES___
