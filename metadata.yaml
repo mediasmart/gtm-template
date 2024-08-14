@@ -15,6 +15,8 @@
 homepage: "https://www.mediasmart.io"
 documentation: "https://console.mediasmart.io/docs/introduction"
 versions:
+  - sha: 157faf6cc1683e43bc795fd25799e8a37aca8ed3
+    changeNotes: Cosmetic change
   - sha: b3b797ba831ace2b449cfe68cc9574245a76730d
     changeNotes: Cosmetic change: Avoid warning on HTTP 204 response
   - sha: ec885a5ee8c91ad5360c4a9edeb5386aa31c3a08
