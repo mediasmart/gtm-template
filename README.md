@@ -1,6 +1,6 @@
 # Mediasmart Conversion Tracking
 
-Mediasmart Conversion Tracking
+Mediasmart Conversion Tracking.
 
 Mediasmart conversion tracking allows tracking conversions on programmatic campaigns that run on mediasmart’s DSP
 
