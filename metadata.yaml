@@ -18,7 +18,7 @@ versions:
   - sha: 157faf6cc1683e43bc795fd25799e8a37aca8ed3
     changeNotes: Cosmetic change
   - sha: b3b797ba831ace2b449cfe68cc9574245a76730d
-    changeNotes: Cosmetic change: Avoid warning on HTTP 204 response
+    changeNotes: Cosmetic change-> Avoid warning on HTTP 204 response
   - sha: ec885a5ee8c91ad5360c4a9edeb5386aa31c3a08
     changeNotes: Allow to enter either an advertiser id or an organization id
   - sha: f4211744c72d06f4a38e21121e9956fba49361ac
