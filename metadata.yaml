@@ -13,7 +13,7 @@
 # limitations under the License.
 
 homepage: "https://www.mediasmart.io"
-documentation: "https://console.mediasmart.io/docs/introduction"
+documentation: "https://help.mediasmart.io/"
 versions:
   - sha: ddc2e2331ff99cb1153c35f2dca43c7ee24db0b4
     changeNotes: Resubmitted to template gallery after typo in metadata file
