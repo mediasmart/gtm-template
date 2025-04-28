@@ -114,7 +114,7 @@ function buildEndpoint() {
 		} else {
 			url += '&ms_event_num=1';
 		}
-		url += '&tagversion=20241114';
+		url += '&tagversion=20250428';
 		return url;
 	}
 
