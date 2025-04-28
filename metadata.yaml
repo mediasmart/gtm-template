@@ -15,6 +15,8 @@
 homepage: "https://www.mediasmart.io"
 documentation: "https://help.mediasmart.io/"
 versions:
+  - sha: a37c3cb46cc72e435679d99f85ebcc44953ff325
+    changeNotes: Allow cross device tracking
   - sha: ccd3a84785d08416bca92c470cb8fdef809a24cf
     changeNotes: Updated documentation link
   - sha: ddc2e2331ff99cb1153c35f2dca43c7ee24db0b4
